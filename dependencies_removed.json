@@ -1,0 +1,341 @@
+{
+    "dangerfile.js": [
+        "scripts/rollup/stats.js"
+    ],
+    "fixtures/flight/src/index.js": [
+        "fixtures/flight/src/App.js"
+    ],
+    "packages/react-client/flight.js": [
+        "packages/react-client/src/ReactFlightClientStream.js"
+    ],
+    "packages/react-client/src/ReactFlightClient.js": [
+        "packages/react-client/src/ReactFlightClientHostConfig.js"
+    ],
+    "packages/react-devtools-inline/src/backend.js": [
+        "packages/react-devtools-inline/src/constants.js"
+    ],
+    "packages/react-devtools-inline/src/frontend.js": [
+        "packages/react-devtools-inline/src/constants.js"
+    ],
+    "packages/react-devtools-shared/src/__tests__/console-test.js": [
+        "packages/react-devtools-shared/src/__tests__/utils.js"
+    ],
+    "packages/react-devtools-shared/src/__tests__/storeStressSync-test.js": [
+        "packages/react-devtools-shared/src/__tests__/storeSerializer.js"
+    ],
+    "packages/react-devtools-shared/src/__tests__/storeStressTestConcurrent-test.js": [
+        "packages/react-devtools-shared/src/__tests__/storeSerializer.js"
+    ],
+    "packages/react-devtools-shared/src/__tests__/useEditableValue-test.js": [
+        "packages/react-devtools-shared/src/devtools/views/hooks.js"
+    ],
+    "packages/react-devtools-shared/src/backend/agent.js": [
+        "packages/react-devtools-shared/src/types.js",
+        "packages/react-devtools-shared/src/backend/console.js"
+    ],
+    "packages/react-devtools-shared/src/backend/index.js": [
+        "packages/react-devtools-shared/src/backend/legacy/renderer.js",
+        "packages/react-devtools-shared/src/backend/renderer.js"
+    ],
+    "packages/react-devtools-shared/src/backend/legacy/renderer.js": [
+        "packages/react-devtools-shared/src/backend/utils.js"
+    ],
+    "packages/react-devtools-shared/src/bridge.js": [
+        "packages/react-devtools-shared/src/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/ContextMenu/ContextMenu.js": [
+        "packages/react-devtools-shared/src/devtools/ContextMenu/Contexts.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/ContextMenu/ContextMenuItem.js": [
+        "packages/react-devtools-shared/src/devtools/ContextMenu/Contexts.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/ContextMenu/useContextMenu.js": [
+        "packages/react-devtools-shared/src/devtools/ContextMenu/Contexts.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/store.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/utils.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Button.js": [
+        "packages/react-devtools-shared/src/devtools/views/Tooltip.css"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/Element.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/Badge.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/views/utils.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElement.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/views/ModalDialog.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/ViewElementSourceContext.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/CannotSuspendWarningMessage.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContext.js": [
+        "packages/react-devtools-shared/src/devtools/cache.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContextTree.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContext.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementHooksTree.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/ContextMenu/useContextMenu.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementPropsTree.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContext.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementStateTree.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementContext.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementSuspenseToggle.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/InspectedElementView.js": [
+        "packages/react-devtools-shared/src/devtools/views/ButtonIcon.js",
+        "packages/react-devtools-shared/src/devtools/views/Icon.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/ContextMenu/ContextMenuItem.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/HocBadges.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/Badge.js",
+        "packages/react-devtools-shared/src/devtools/ContextMenu/ContextMenu.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/KeyValue.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js",
+        "packages/react-devtools-shared/src/devtools/ContextMenu/useContextMenu.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/NewArrayValue.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/NewKeyValue.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/OwnersStack.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/Badge.js",
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/Tree.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/SearchInput.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Components/TreeContext.js": [
+        "packages/react-devtools-shared/src/devtools/views/Components/types.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Profiler/Profiler.js": [
+        "packages/react-devtools-shared/src/devtools/views/Profiler/Interactions.js",
+        "packages/react-devtools-shared/src/devtools/views/Profiler/SidebarInteractions.js",
+        "packages/react-devtools-shared/src/devtools/store.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Settings/DebuggingSettings.js": [
+        "packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Settings/SettingsContext.js": [
+        "packages/react-devtools-shared/src/devtools/views/DevTools.js"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/TabBar.js": [
+        "packages/react-devtools-shared/src/devtools/views/Tooltip.css"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/Toggle.js": [
+        "packages/react-devtools-shared/src/devtools/views/Tooltip.css"
+    ],
+    "packages/react-devtools-shared/src/devtools/views/portaledContent.js": [
+        "packages/react-devtools-shared/src/devtools/views/ErrorBoundary.js",
+        "packages/react-devtools-shared/src/devtools/store.js"
+    ],
+    "packages/react-devtools-shared/src/hook.js": [
+        "packages/react-devtools-shared/src/backend/console.js"
+    ],
+    "packages/react-devtools-shared/src/hydration.js": [
+        "packages/react-devtools-shared/src/utils.js"
+    ],
+    "packages/react-devtools-shared/src/utils.js": [
+        "packages/react-devtools-shared/src/storage.js",
+        "packages/react-devtools-shared/src/types.js"
+    ],
+    "packages/react-devtools-shell/src/app/index.js": [
+        "packages/react-devtools-shell/src/app/PriorityLevels/index.js",
+        "packages/react-devtools-shell/src/app/InteractionTracing/index.js"
+    ],
+    "packages/react-dom/index.js": [
+        "packages/react-dom/src/client/ReactDOM.js"
+    ],
+    "packages/react-dom/server.browser.js": [
+        "packages/react-dom/src/server/ReactDOMServerBrowser.js"
+    ],
+    "packages/react-dom/server.node.js": [
+        "packages/react-dom/src/server/ReactDOMServerNode.js"
+    ],
+    "packages/react-dom/src/__tests__/ReactDOMSelection-test.internal.js": [
+        "packages/react-dom/src/client/ReactDOMSelection.js"
+    ],
+    "packages/react-dom/src/__tests__/ReactDOMServerSuspense-test.internal.js": [
+        "packages/react-dom/src/__tests__/utils/ReactDOMServerIntegrationTestUtils.js"
+    ],
+    "packages/react-dom/src/client/ReactDOMRoot.js": [
+        "packages/react-dom/src/client/ReactDOMComponent.js",
+        "packages/react-dom/src/events/DOMPluginEventSystem.js",
+        "packages/react-dom/src/client/ReactDOMComponentTree.js",
+        "packages/react-dom/src/shared/HTMLNodeType.js",
+        "packages/react-dom/src/events/ReactDOMEventReplaying.js",
+        "packages/react-dom/src/client/ReactDOMHostConfig.js"
+    ],
+    "packages/react-dom/src/client/__tests__/getNodeForCharacterOffset-test.js": [
+        "packages/react-dom/src/client/getNodeForCharacterOffset.js"
+    ],
+    "packages/react-dom/src/shared/ReactDOMTypes.js": [
+        "packages/react-dom/src/events/DOMEventNames.js"
+    ],
+    "packages/react-dom/src/test-utils/ReactTestUtils.js": [
+        "packages/react-dom/src/test-utils/ReactTestUtilsInternalAct.js",
+        "packages/react-dom/src/test-utils/ReactTestUtilsPublicAct.js",
+        "packages/react-dom/src/events/SyntheticEvent.js",
+        "packages/react-dom/src/shared/HTMLNodeType.js"
+    ],
+    "packages/react-native-renderer/src/ReactFabric.js": [
+        "packages/react-native-renderer/src/ReactFabricComponentTree.js"
+    ],
+    "packages/react-native-renderer/src/ReactNativeFiberHostComponent.js": [
+        "packages/react-native-renderer/src/ReactNativeHostConfig.js"
+    ],
+    "packages/react-native-renderer/src/ReactNativeRenderer.js": [
+        "packages/react-native-renderer/src/ReactNativeComponentTree.js"
+    ],
+    "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/ReactNativePrivateInterface.js": [
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/TextInputState.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/ReactFiberErrorDialog.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/flattenStyle.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/ReactNativeViewConfigRegistry.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/BatchedBridge.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/UIManager.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/deepFreezeAndThrowOnMutationInDev.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/RCTEventEmitter.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/deepDiffer.js",
+        "packages/react-native-renderer/src/__mocks__/react-native/Libraries/ReactPrivate/Platform.js"
+    ],
+    "packages/react-reconciler/src/ReactFiberErrorLogger.js": [
+        "packages/react-reconciler/src/ReactFiberErrorDialog.js"
+    ],
+    "packages/react-reconciler/src/ReactFiberHotReloading.js": [
+        "packages/react-reconciler/src/ReactFiberHotReloading.new.js",
+        "packages/react-reconciler/src/ReactFiberHotReloading.js",
+        "packages/react-reconciler/src/ReactFiberHotReloading.old.js"
+    ],
+    "packages/react-reconciler/src/ReactFiberLane.js": [
+        "packages/react-reconciler/src/SchedulerWithReactIntegration.new.js"
+    ],
+    "packages/react-reconciler/src/ReactFiberReconciler.js": [
+        "packages/react-reconciler/src/ReactFiberReconciler.old.js",
+        "packages/react-reconciler/src/ReactFiberReconciler.new.js"
+    ],
+    "packages/react-reconciler/src/ReactFiberTreeReflection.js": [
+        "packages/react-reconciler/src/ReactFiberHostConfig.js",
+        "packages/react-reconciler/src/ReactFiberSuspenseComponent.old.js"
+    ],
+    "packages/react-reconciler/src/ReactInternalTypes.js": [
+        "packages/react-reconciler/src/ReactFiberHooks.old.js",
+        "packages/react-reconciler/src/ReactFiberHostConfig.js"
+    ],
+    "packages/react-reconciler/src/ReactTestSelectors.js": [
+        "packages/react-reconciler/src/ReactFiberHostConfig.js"
+    ],
+    "packages/react-server/src/ReactFizzServer.js": [
+        "packages/react-server/src/ReactServerFormatConfig.js",
+        "packages/react-server/src/ReactServerStreamConfig.js"
+    ],
+    "packages/react-server/src/forks/ReactFlightServerConfig.custom.js": [
+        "packages/react-server/src/ReactFlightServerBundlerConfigCustom.js",
+        "packages/react-server/src/ReactFlightServerConfigStream.js"
+    ],
+    "packages/react-server/src/forks/ReactFlightServerConfig.dom-browser.js": [
+        "packages/react-server/src/ReactFlightServerConfigStream.js"
+    ],
+    "packages/react-test-renderer/src/ReactTestRenderer.js": [
+        "packages/react-test-renderer/src/ReactTestHostConfig.js"
+    ],
+    "packages/react/index.experimental.js": [
+        "packages/react/src/React.js"
+    ],
+    "packages/react/index.js": [
+        "packages/react/src/React.js"
+    ],
+    "packages/react/index.stable.js": [
+        "packages/react/src/React.js"
+    ],
+    "packages/react/src/ReactChildren.js": [
+        "packages/react/src/ReactElement.js"
+    ],
+    "packages/react/src/ReactHooks.js": [
+        "packages/react/src/ReactCurrentDispatcher.js"
+    ],
+    "packages/react/src/ReactStartTransition.js": [
+        "packages/react/src/ReactCurrentBatchConfig.js"
+    ],
+    "packages/react/src/jsx/ReactJSX.js": [
+        "packages/react/src/jsx/ReactJSXElementValidator.js"
+    ],
+    "packages/scheduler/index.js": [
+        "packages/scheduler/src/Scheduler.js"
+    ],
+    "packages/scheduler/unstable_mock.js": [
+        "packages/scheduler/src/Scheduler.js",
+        "packages/scheduler/src/SchedulerHostConfig.js"
+    ],
+    "packages/scheduler/unstable_post_task.js": [
+        "packages/scheduler/src/SchedulerPostTask.js"
+    ],
+    "scripts/error-codes/extract-errors.js": [
+        "scripts/shared/evalToString.js",
+        "scripts/error-codes/invertObject.js"
+    ],
+    "scripts/eslint-rules/index.js": [
+        "scripts/eslint-rules/no-cross-fork-types.js",
+        "scripts/eslint-rules/invariant-args.js",
+        "scripts/eslint-rules/no-cross-fork-imports.js"
+    ],
+    "scripts/jest/matchers/reactTestMatchers.js": [
+        "scripts/jest/matchers/schedulerTestMatchers.js"
+    ],
+    "scripts/jest/matchers/toWarnDev.js": [
+        "scripts/jest/shouldIgnoreConsoleError.js"
+    ],
+    "scripts/jest/setupTests.js": [
+        "scripts/jest/matchers/profilerMatchers.js",
+        "scripts/jest/matchers/interactionTracingMatchers.js",
+        "scripts/jest/shouldIgnoreConsoleError.js"
+    ],
+    "scripts/jest/spec-equivalence-reporter/setupTests.js": [
+        "scripts/jest/matchers/profilerMatchers.js",
+        "scripts/jest/matchers/interactionTracingMatchers.js"
+    ],
+    "scripts/release/download-experimental-build.js": [
+        "scripts/release/shared-commands/get-latest-master-build-number.js",
+        "scripts/release/shared-commands/parse-params.js",
+        "scripts/release/shared-commands/check-environment-variables.js",
+        "scripts/release/download-experimental-build-commands/print-summary.js"
+    ],
+    "scripts/release/prepare-release-from-ci.js": [
+        "scripts/release/shared-commands/get-latest-master-build-number.js",
+        "scripts/release/shared-commands/test-tracing-fixture.js",
+        "scripts/release/shared-commands/check-environment-variables.js"
+    ],
+    "scripts/release/prepare-release-from-npm.js": [
+        "scripts/release/shared-commands/test-tracing-fixture.js"
+    ],
+    "scripts/rollup/build.js": [
+        "scripts/rollup/plugins/strip-unused-imports.js",
+        "scripts/error-codes/extract-errors.js"
+    ],
+    "scripts/rollup/modules.js": [
+        "scripts/rollup/bundles.js"
+    ],
+    "scripts/rollup/validate/index.js": [
+        "scripts/rollup/bundles.js",
+        "scripts/rollup/packaging.js"
+    ],
+    "scripts/rollup/wrappers.js": [
+        "package.json"
+    ]
+}
